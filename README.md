@@ -21,8 +21,17 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 ## Results
 ***`A validation dataset of size 12,000 was deduced from the Training dataset with its size being changed to 48,000. We train the following models for 20 epochs.`***
 
-### Prarameters Initialization
-* Both models have been initialized with random weights sampled from a normal distribution and bias with 0.
+### Prarameters Initialization for FFNN
+* Feed Forward Neural Netword model has been initialized with random weights sampled from a normal distribution and bias with 0.
 * These parameters have been intialized only for the Linear layers present in both of the models.
 * If `n` represents number of nodes in a Linear Layer, then weights are given as a sample of normal distribution in the range `(0,y)`. Here `y` represents standard deviation calculated as `y=1.0/sqrt(n)`
 * Normal distribution is chosen since the probability of choosing a set of weights closer to zero in the distribution is more than that of the higher values. Unlike in Uniform distribution where probability of choosing any value is equal.
+
+### Model -1: FFNN Autoencoder
+
+
+### Model -2: Transpose CNN Autoencoder
+
+
+### Model -3: Upsampled CNN Autoencoder
+
