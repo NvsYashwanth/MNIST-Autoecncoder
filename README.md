@@ -27,3 +27,11 @@ Thanks to Yann LeCun, Corinna Cortes, Christopher J.C. Burges.
 * If `n` represents number of nodes in a Linear Layer, then weights are given as a sample of normal distribution in the range `(0,y)`. Here `y` represents standard deviation calculated as `y=1.0/sqrt(n)`
 * Normal distribution is chosen since the probability of choosing a set of weights closer to zero in the distribution is more than that of the higher values. Unlike in Uniform distribution where probability of choosing any value is equal.
 
+### Model -1: FFNN Autoencoder
+
+
+### Model -2: Transpose CNN Autoencoder
+
+
+### Model -3: Upsampled CNN Autoencoder
+
